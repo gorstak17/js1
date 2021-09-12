@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <form action="#" onsubmit="return false">
+      <table>
+        <tr>
+          <td><label for="ime">Ime</label></td>
+          <td><input type="text" name="ime" id="ime" /><br /></td>
+        </tr>
+        <tr>
+          <td><label for="prezime">Prezime</label></td>
+          <td><input type="text" name="prezime" id="prezime" /><br /></td>
+        </tr>
+        <tr>
+          <td><label for="indeks">Broj indeksa</label></td>
+          <td><input type="text" name="indeks" id="indeks" /><br /></td>
+        </tr>
+
+        <tr>
+          <td><label for="godinaU">Godina upisa</label></td>
+          <td>
+            <select name="godinaU" id="godinaU">
+              <option value="2020">2020</option>
+              <option value="2019">2019</option>
+              <option value="2018">2018</option>
+              <option value="2017">2017</option>
+              <option value="2016">2016</option>
+              <option value="2015">2015</option>
+            </select>
+          </td>
+        </tr>
+        <tr>
+          <td><label for="email">E-mail</label></td>
+          <td><input type="email" name="email" id="email" /></td>
+        </tr>
+        <tr>
+          <td><button id="pokreni">Pokreni</button></td>
+        </tr>
+      </table>
+    </form>
+    <div class="datumH">
+      <span><label for="datum">Datum rodjenja</label></span>
+      <span>
+        <input
+          type="text"
+          name="datum"
+          id="datum"
+          placeholder="Uneti datum formata dd-mm-YYYY"
+          maxlength="10"
+        />
+      </span>
+    </div>
+    <div id="resenja">
+      <div id="zagonetka1"></div>
+      <div id="zagonetka2"></div>
+      <div id="timer">Vreme za resavanje zagonetke:<span id="timer1"></span></div>
+      <div id="kvadrati"></div>
+    </div>
+    <script src="main.js"></script>
+  </body>
+</html>

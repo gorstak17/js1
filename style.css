@@ -1,0 +1,28 @@
+#timer {
+  display: none;
+}
+
+#resenja {
+  display: none;
+}
+
+.datumH {
+  display: none;
+}
+
+.plavi {
+  width: 100px;
+  height: 100px;
+  background-color: blue;
+}
+
+.plavi {
+  width: 100px;
+  height: 100px;
+  background-color: blue;
+}
+.zuti {
+  width: 100px;
+  height: 100px;
+  background-color: yellow;
+}
